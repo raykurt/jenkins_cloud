@@ -45,12 +45,10 @@ public class JenkinsTests {
 
         assertEquals("2019-02-22", bookingdates.get("checkin"));
         assertEquals("2021-04-13", bookingdates.get("checkout"));
-
-
-
-
     }
 
-
-
+    @Test
+    public void apiTest2(){
+        System.out.println("*** Jenkins Works Well ***");
+    }
 }
