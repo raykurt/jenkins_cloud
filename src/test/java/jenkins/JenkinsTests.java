@@ -38,13 +38,13 @@ public class JenkinsTests {
         Map<String, Object> bookingdates = (Map)actualData.get("bookingdates");
 
 
-        assertEquals("Mark", actualData.get("firstname"));
-        assertEquals("Jones", actualData.get("lastname"));
-        assertEquals(508, actualData.get("totalprice"));
+        assertEquals("Mary", actualData.get("firstname"));
+        assertEquals("Ericsson", actualData.get("lastname"));
+        assertEquals(765, actualData.get("totalprice"));
         assertEquals(false, actualData.get("depositpaid"));
 
-        assertEquals("2021-03-04", bookingdates.get("checkin"));
-        assertEquals("2021-12-13", bookingdates.get("checkout"));
+        assertEquals("2019-02-22", bookingdates.get("checkin"));
+        assertEquals("2021-04-13", bookingdates.get("checkout"));
 
 
 
