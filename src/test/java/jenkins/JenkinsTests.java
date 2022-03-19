@@ -25,30 +25,31 @@ public class JenkinsTests {
         //Set the base url and path params
         spec.pathParams("first", "booking", "second",3);
 
-
         //Send the Get request and get the response
         Response response = given().spec(spec).when().get("/{first}/{second}");
 
-
         response.prettyPrint();
-
 
         Map<String, Object> actualData = response.as(HashMap.class);
 
         Map<String, Object> bookingdates = (Map)actualData.get("bookingdates");
 
+        assertEquals("Eric", actualData.get("firstname"));
+        assertEquals("Jackson", actualData.get("lastname"));
+        assertEquals(349, actualData.get("totalprice"));
+        assertEquals(true, actualData.get("depositpaid"));
 
-        assertEquals("Mary", actualData.get("firstname"));
-        assertEquals("Ericsson", actualData.get("lastname"));
-        assertEquals(765, actualData.get("totalprice"));
-        assertEquals(false, actualData.get("depositpaid"));
-
-        assertEquals("2019-02-22", bookingdates.get("checkin"));
-        assertEquals("2021-04-13", bookingdates.get("checkout"));
+        assertEquals("2015-03-17", bookingdates.get("checkin"));
+        assertEquals("2017-08-10", bookingdates.get("checkout"));
     }
 
     @Test
     public void apiTest2(){
         System.out.println("*** Jenkins Works Well ***");
+    }
+
+    @Test
+    public void apiTest3(){
+        System.out.println("*** Jenkins Well ***");
     }
 }
