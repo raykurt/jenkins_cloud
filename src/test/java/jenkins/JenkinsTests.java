@@ -35,7 +35,7 @@ public class JenkinsTests {
         Map<String, Object> bookingdates = (Map)actualData.get("bookingdates");
 
         assertEquals("Sally", actualData.get("firstname"));
-        assertEquals("Wilson", actualData.get("lastname"));
+        assertEquals("Jones", actualData.get("lastname"));
         assertEquals(399, actualData.get("totalprice"));
         assertEquals(false, actualData.get("depositpaid"));
 
