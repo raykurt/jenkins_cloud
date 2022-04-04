@@ -14,6 +14,7 @@ public class Duplicateleri_Sil {
                 sonuc += ""+ str.charAt(i);
             }
         }
+
         System.out.println(sonuc);
     }
 
