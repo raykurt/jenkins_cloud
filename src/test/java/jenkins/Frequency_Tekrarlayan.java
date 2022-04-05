@@ -30,5 +30,4 @@ public class Frequency_Tekrarlayan {
         }
         System.out.println("----------------------------------------");
     }
-
 }

@@ -22,6 +22,5 @@ public class Arrayde_Negatif_Pozitif_Ayir {
             }
         }
         System.out.println(Arrays.toString(arr));
-
     }
 }
