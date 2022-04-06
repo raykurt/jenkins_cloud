@@ -1,5 +1,7 @@
 package jenkins;
 
+import org.apache.commons.io.IOExceptionList;
+
 import java.util.Arrays;
 
 public class Arrayde_Negatif_Pozitif_Ayir {
@@ -22,5 +24,6 @@ public class Arrayde_Negatif_Pozitif_Ayir {
             }
         }
         System.out.println(Arrays.toString(arr));
+
     }
 }
