@@ -29,5 +29,6 @@ public class Frequency_Tekrarlayan {
                 System.out.println("    " + arr[i] + "    |    " + fr[i]);
         }
         System.out.println("----------------------------------------");
+
     }
 }
