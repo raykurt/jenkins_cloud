@@ -22,6 +22,7 @@ public class Prime_Number {
 
         if(isPrime){
             System.out.println(number + " is prime");
+
         } else {
             System.out.println(number + " is not prime");
 
