@@ -1,6 +1,6 @@
 package jenkins;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Prime_Number {
 
@@ -19,13 +19,10 @@ public class Prime_Number {
                 break;
             }
         }
-
         if(isPrime){
             System.out.println(number + " is prime");
-
         } else {
             System.out.println(number + " is not prime");
-
         }
     }
 }

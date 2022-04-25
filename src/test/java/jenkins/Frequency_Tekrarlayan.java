@@ -1,5 +1,8 @@
 package jenkins;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class Frequency_Tekrarlayan {
 
     public static void main(String[] args) {
@@ -20,6 +23,9 @@ public class Frequency_Tekrarlayan {
             if(fr[i] != visited)
                 fr[i] = count;
         }
+
+        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(fr));
 
         System.out.println("---------------------------------------");
         System.out.println(" Element | Frequency");
