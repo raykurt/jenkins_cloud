@@ -24,7 +24,6 @@ public class Bosluklar_Sabit_Reverse {
                 zero++;
                 length--;
             }
-
         }
         System.out.println(reverse);
     }
