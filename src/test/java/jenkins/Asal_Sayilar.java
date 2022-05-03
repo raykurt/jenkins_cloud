@@ -19,6 +19,7 @@ public class Asal_Sayilar {
             if (bolen == 2){
                 System.out.print(i + " ");
             }
+
         }
     }
 }
