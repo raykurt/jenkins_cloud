@@ -1,7 +1,6 @@
 package jenkins;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 public class Frequency_Tekrarlayan {
 

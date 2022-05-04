@@ -8,8 +8,6 @@ public class Bosluklar_Sabit_Reverse {
 
         String str2 = str.replaceAll(" ", "");
 
-        int space = str.length() - str2.length();
-
         String reverse = "";
 
         int zero = 0;
@@ -18,12 +16,11 @@ public class Bosluklar_Sabit_Reverse {
         for (int i = str.length() - 1; i >= 0; i--) {
             if (str.substring(zero, zero + 1).contains(" ")) {
                 reverse += " ";
-                zero++;
             } else {
                 reverse += str2.charAt(length - 1);
-                zero++;
                 length--;
             }
+            zero++;
         }
         System.out.println(reverse);
     }
