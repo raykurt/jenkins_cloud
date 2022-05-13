@@ -15,7 +15,6 @@ public class Arrayde_Olmayan_En_Buyuk {
         int arr_size = arr1.length;
         int missing = findMissing(arr1, arr_size);
         System.out.println("Smallest number = " + missing);
-
     }
 
     public static int minOutherArray(int[] arr){

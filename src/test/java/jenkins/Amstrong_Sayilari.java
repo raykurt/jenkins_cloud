@@ -29,6 +29,5 @@ public class Amstrong_Sayilari {
                 }
             }
         }
-
     }
 
