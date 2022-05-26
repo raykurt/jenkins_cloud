@@ -21,5 +21,6 @@ public class Kelime_Harf_Sayilari {
         }
         Collections.sort(charsInWord);
         return "wordcount: "+wordsCount+", wordsizes: "+charsInWord;
+
     }
 }

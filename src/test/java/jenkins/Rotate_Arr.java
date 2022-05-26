@@ -25,5 +25,6 @@ public class Rotate_Arr {
             else result[i]=arr[shift-len];
         }
         return result;
+
     }
 }
