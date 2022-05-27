@@ -38,9 +38,6 @@ public class Arrayde_Olmayan_En_Buyuk {
     }
 
 
-
-
-
     static int segregate(int arr[], int size) {
         int j = 0, i;
         for (i = 0; i < size; i++) {
