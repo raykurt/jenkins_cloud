@@ -19,6 +19,7 @@ public class Karakter_Sayilari {
                 map.put(c, 1);
             }
         }
+
         System.out.println(map);
     }
 
