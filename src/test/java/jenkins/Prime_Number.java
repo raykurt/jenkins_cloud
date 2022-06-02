@@ -13,7 +13,6 @@ public class Prime_Number {
         boolean isPrime = number >= 2;
 
         for(int i = 2; i < number; i++){
-
             if(number % i == 0){
                 isPrime = false;
                 break;
