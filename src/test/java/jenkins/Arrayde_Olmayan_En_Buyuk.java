@@ -8,7 +8,7 @@ public class Arrayde_Olmayan_En_Buyuk {
 
     public static void main(String[] args) {
 
-        int [] arr = {1,2,4,9,5};
+        int [] arr = {1,3,4,9,2};
         System.out.println("minOutherArray = " + minOutherArray(arr));
 
         int arr1[] = arr;
@@ -75,6 +75,5 @@ public class Arrayde_Olmayan_En_Buyuk {
             j++;
         }
         return findMissingPositive(arr2, j);
-
     }
 }
