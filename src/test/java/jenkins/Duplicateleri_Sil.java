@@ -6,7 +6,7 @@ public class Duplicateleri_Sil {
 
     public static void main(String[] args) {
 
-        String str = "abGHYHGb12421";
+        String str = "abGXYxHGb12421";
         String result = "";
         for (int i = 0; i < str.length(); i++) {
             if(!result.contains(String.valueOf(str.charAt(i)))) {
@@ -14,6 +14,5 @@ public class Duplicateleri_Sil {
             }
         }
         System.out.println(result);
-
     }
 }
