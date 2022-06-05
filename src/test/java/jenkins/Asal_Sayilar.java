@@ -6,7 +6,7 @@ public class Asal_Sayilar {
 
         int bolen;
 
-        for (int i = 2; i < 200; i++) {
+        for (int i = 2; i < 150; i++) {
 
             bolen = 0;
 
@@ -16,8 +16,7 @@ public class Asal_Sayilar {
                 }
             }
             if (bolen == 2){
-                System.out.print(i + " ");
-
+                System.out.println(i + " ");
             }
         }
     }

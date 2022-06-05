@@ -1,12 +1,10 @@
 package jenkins;
 
-import java.util.Arrays;
-
 public class Duplicateleri_Sil {
 
     public static void main(String[] args) {
 
-        String str = "abGXYxHGb12421";
+        String str = "abG5zcW24c21";
         String result = "";
         for (int i = 0; i < str.length(); i++) {
             if(!result.contains(String.valueOf(str.charAt(i)))) {
