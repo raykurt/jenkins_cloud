@@ -1,5 +1,8 @@
 package jenkins;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Bosluklar_Sabit_Reverse {
 
     public static void main(String[] args) {
@@ -23,6 +26,13 @@ public class Bosluklar_Sabit_Reverse {
             zero++;
         }
         System.out.println(reverse);
+
+
+        List<String> stringList = new ArrayList<>();
+        stringList.add("recep");
+        stringList.add("aykurt");
+
+        stringList.stream().filter( t-> t.contains("e")).forEach(t-> System.out.println(t));
 
     }
 }
