@@ -7,7 +7,7 @@ import java.util.List;
 public class Kelime_Harf_Sayilari {
 
     public static void main(String[] args) {
-        String str = "Yesterday I drove to San Diego and went surfing";
+        String str = "Yesterday I drove to San Diego and went surfing great";
 
         System.out.println(count(str));
     }
