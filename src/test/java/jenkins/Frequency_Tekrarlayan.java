@@ -6,7 +6,7 @@ public class Frequency_Tekrarlayan {
 
     public static void main(String[] args) {
 
-        int [] arr = new int [] {1, 2, 8, 3, 2, 2, 2, 5, 1};
+        int [] arr = new int [] {1, 2, 8, 9, 2, 2, 9, 5, 1};
         int [] fr = new int [arr.length];
 
         int visited = -1;
