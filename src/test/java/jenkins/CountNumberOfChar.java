@@ -20,7 +20,7 @@ public class CountNumberOfChar {
 
     public static int getNumOfChars() {
 
-        String str = "Java is easy";
+        String str = "Java is very easy";
 
         char ch = 'a';
 
