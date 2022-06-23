@@ -7,7 +7,7 @@ public class Count_Words {
 
     public static void main(String[] args) {
 
-        String str = "Hi Hello How are you welcome to USA Thanks Welcome to USA USA";
+        String str = "Hi Hello How are you to welcome to USA Thanks Welcome to USA USA";
         Map<String, Integer> hashMap = new HashMap<>();
 
         String[] words = str.split(" ");
