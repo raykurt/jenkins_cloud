@@ -6,7 +6,7 @@ public class Asal_Sayilar {
 
         int bolen;
 
-        for (int i = 2; i < 150; i++) {
+        for (int i = 2; i < 250; i++) {
 
             bolen = 0;
 
