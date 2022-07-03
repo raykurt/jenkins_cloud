@@ -9,7 +9,7 @@ public class Karakter_Sayilari {
 
         Map<Character, Integer> map = new HashMap<>();
 
-        String str = "aayhnbcbzzy";
+        String str = "aayh24bcbzzy";
 
         for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
