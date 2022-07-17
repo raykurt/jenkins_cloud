@@ -66,6 +66,7 @@ public class FileReader {
 
         String temp;
         double temp1;
+
         for (int i = 0; i < data.size(); i++) {
             for (int j = i+1; j < data.size(); j++) {
                 if (area[i]<area[j]){
