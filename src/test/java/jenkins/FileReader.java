@@ -77,10 +77,8 @@ public class FileReader {
                     area[i]=area[j];
                     area[j]=temp1;
                 }
-
             }
         }
-
 
         System.out.println(Arrays.toString(shapes));
         System.out.println(Arrays.toString(area));
