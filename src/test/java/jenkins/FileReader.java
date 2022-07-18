@@ -66,16 +66,25 @@ public class FileReader {
         String [] shapesFinal = new String[data.size()- incorrectData.size()];
         double [] areaFinal = new double[data.size()- incorrectData.size()];
 
-        for (int i = 0; i < shapesFinal.length; i++) {
+        for (int i = 0, j = 0; j < shapesFinal.length; i++,j++) {
             if (!incorrectData.contains(i)){
-                shapesFinal[i]=shapes[i];
-                areaFinal[i]=area[i];
-            }else {
-                shapesFinal[i]=shapes[i+1];
-                areaFinal[i]=area[i+1];
+                shapesFinal[j]=shapes[i];
+                areaFinal[j]=area[i];
+            }
+            else if (i == shapes.length-2) {
+                shapesFinal[j] = shapes[i + 1];
+                areaFinal[j] = area[i + 1];
+                i++;
+            }
+            else {
+                shapesFinal[j]=shapes[i+1];
+                areaFinal[j]=area[i+1];
+                i++;
             }
         }
 
+        System.out.println(Arrays.toString(shapesFinal));
+        System.out.println(incorrectData);
         String temp;
         double temp1;
 
