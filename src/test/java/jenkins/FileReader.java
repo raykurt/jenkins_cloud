@@ -90,6 +90,7 @@ public class FileReader {
                     areaFinal[j]=temp1;
                 }
             }
+
             System.out.println(shapesFinal[i]+" "+areaFinal[i]);
         }
     }
