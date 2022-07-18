@@ -63,26 +63,34 @@ public class FileReader {
             }
         }
 
+        String [] shapesFinal = new String[data.size()- incorrectData.size()];
+        double [] areaFinal = new double[data.size()- incorrectData.size()];
+
+        for (int i = 0; i < shapesFinal.length; i++) {
+            if (!incorrectData.contains(i)){
+                shapesFinal[i]=shapes[i];
+                areaFinal[i]=area[i];
+            }else {
+                shapesFinal[i]=shapes[i+1];
+                areaFinal[i]=area[i+1];
+            }
+        }
 
         String temp;
         double temp1;
 
-        for (int i = 0; i < data.size(); i++) {
-            for (int j = i+1; j < data.size(); j++) {
-                if (area[i]<area[j]){
-                    temp=shapes[i];
-                    shapes[i]=shapes[j];
-                    shapes[j]=temp;
-                    temp1=area[i];
-                    area[i]=area[j];
-                    area[j]=temp1;
+        for (int i = 0; i < shapesFinal.length; i++) {
+            for (int j = i+1; j < shapesFinal.length; j++) {
+                if (areaFinal[i]<areaFinal[j]){
+                    temp=shapesFinal[i];
+                    shapesFinal[i]=shapesFinal[j];
+                    shapesFinal[j]=temp;
+                    temp1=areaFinal[i];
+                    areaFinal[i]=areaFinal[j];
+                    areaFinal[j]=temp1;
                 }
             }
+            System.out.println(shapesFinal[i]+" "+areaFinal[i]);
         }
-
-        System.out.println(Arrays.toString(shapes));
-        System.out.println(Arrays.toString(area));
-        System.out.println(incorrectData);
-
     }
 }
