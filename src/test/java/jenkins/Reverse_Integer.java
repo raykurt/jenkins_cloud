@@ -14,5 +14,17 @@ public class Reverse_Integer {
             System.out.println("Reversed Number: " + reversed);
 
 
+            System.out.println(StrReverse("JavaLower"));
+    }
+
+    public static String StrReverse(String str) {
+
+        String reverse="";
+
+        for(int i=str.length()-1; i >= 0; i--) {
+            reverse += str.substring(i,i+1);
+        }
+        return reverse;
+
     }
 }
