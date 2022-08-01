@@ -4,7 +4,7 @@ public class Java_Q {
 
     public static void main(String[] args) {
 
-        String num = "032149808";
+        String num = "035249808";
 
         int sum = 10;
         int total = 0;
