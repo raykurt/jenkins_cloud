@@ -11,7 +11,7 @@ public class Fibonacci {
         int b = 0;
         int c = 0;
 
-        int number = 13;
+        int number = 14;
 
         for (int i = 0; i < number; i++) {
             System.out.print(c +" ");
