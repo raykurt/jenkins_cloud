@@ -8,7 +8,7 @@ public class Put_Zeros_End {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter the length of the array.....");
+        System.out.println("Enter the length of the array.......");
         int length = scan.nextInt();
         System.out.println("Enter the array elements...");
 
