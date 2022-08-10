@@ -7,14 +7,14 @@ public class Seyfi {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter a String");
+        System.out.println("Enter a String...");
         String str = scan.nextLine();
         int number;
 
         String newStr = "";
 
         if (str.contains(" ") || str.length()==0){
-            throw new RuntimeException("The string will not be empty and not include spaces");
+            throw new RuntimeException("The string will not be empty and not include spaces..");
         }
 
 
