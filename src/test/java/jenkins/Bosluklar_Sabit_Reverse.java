@@ -28,11 +28,23 @@ public class Bosluklar_Sabit_Reverse {
         System.out.println(reverse);
 
 
-        List<String> stringList = new ArrayList<>();
-        stringList.add("recep");
-        stringList.add("aykurt");
+        System.out.println(reverseWords("my name is ali"));
 
-        stringList.stream().filter( t-> t.contains("e")).forEach(t-> System.out.println(t));
+    }
 
+    public static String reverseWords(String s){
+
+        String [] arr = s.trim().split(" ");
+
+        String reversed = "";
+        for(String each : arr){
+
+            for (int i = each.length()-1; i >= 0 ; i--) {
+
+                reversed += each.charAt(i);
+            }
+            reversed += " ";
+        }
+        return reversed;
     }
 }
