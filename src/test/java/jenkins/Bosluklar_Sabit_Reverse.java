@@ -28,7 +28,7 @@ public class Bosluklar_Sabit_Reverse {
         System.out.println(reverse);
 
 
-        System.out.println(reverseWords("my name is ali"));
+        System.out.println(reverseWords("My name is Ali"));
 
     }
 
@@ -47,4 +47,5 @@ public class Bosluklar_Sabit_Reverse {
         }
         return reversed;
     }
+
 }
