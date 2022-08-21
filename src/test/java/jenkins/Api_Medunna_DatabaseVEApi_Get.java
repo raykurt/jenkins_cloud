@@ -1,9 +1,15 @@
 package jenkins;
 
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
 import org.junit.Assert;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 import static jenkins.Api_Medunna_Database_Utilities.*;
@@ -39,11 +45,11 @@ public class Api_Medunna_DatabaseVEApi_Get {
 
 
         createConnection();
-        actualeMailList=getColumnData("select * from jhi_user where first_name like '%Recep%'", "email");
+        actualeMailList = getColumnData("select * from jhi_user where first_name like '%Recep%'", "email");
         closeConnection();
 
         System.out.println(actualeMailList);
-        Assert.assertTrue(actualeMailList.contains("recep15555@gmail.com"));
+        Assert.assertTrue(actualeMailList.contains("recep1995@gmail.com"));
 
     }
 }

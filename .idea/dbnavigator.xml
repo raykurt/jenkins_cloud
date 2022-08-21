@@ -29,7 +29,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="514650a2-10c3-48d5-8fef-60ad1dd4f8a3">
-      <console name="Connection" type="STANDARD" schema="" session="Main"><![CDATA[select * from jhi_user where first_name like '%Recep%']]></console>
+      <console name="Connection" type="STANDARD" schema="" session="Main"><![CDATA[select * from jhi_user where created_by ='adminrecep']]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">

@@ -17,13 +17,13 @@ public class Api_Medunna_Register_Post {
         RequestSpecification spec=new RequestSpecBuilder().setBaseUri("https://medunna.com").build();
         spec.pathParams("first","api","second","register");
 
-        api_pojo1.setEmail("recep15555@gmail.com");
+        api_pojo1.setEmail("recep9514@gmail.com");
         api_pojo1.setFirstName("RecepA");
         api_pojo1.setLastName("RecepB");
         api_pojo1.setLangKey("en");
-        api_pojo1.setSsn("109-20-7996");
+        api_pojo1.setSsn("109-88-8896");
         api_pojo1.setPassword("ReceAB12**");
-        api_pojo1.setLogin("recep123987");
+        api_pojo1.setLogin("recep1987");
 
         response=given().spec(spec).contentType(ContentType.JSON).body(api_pojo1).when().post("/{first}/{second}");
         response.prettyPrint();
