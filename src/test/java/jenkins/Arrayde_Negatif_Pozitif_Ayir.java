@@ -7,7 +7,7 @@ public class Arrayde_Negatif_Pozitif_Ayir {
     public static void main(String[] args) {
 
 
-        int arr[] = {-12, 11, -13, -5, 8, -7, 5, -3, -6 };
+        int arr[] = {-12, 11, -13, 1, 8, -7, 5, -3, -6 };
         int n = arr.length;
 
         int key;
