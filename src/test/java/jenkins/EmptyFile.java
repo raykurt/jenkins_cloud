@@ -14,5 +14,7 @@ public class EmptyFile {
             }
             System.out.println();
         }
+
+        System.out.println("===");
     }
 }
