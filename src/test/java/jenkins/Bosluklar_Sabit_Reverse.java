@@ -7,7 +7,7 @@ public class Bosluklar_Sabit_Reverse {
 
     public static void main(String[] args) {
 
-        String str = "I Love Java Batch";
+        String str = "I Love Java";
 
         String str2 = str.replaceAll(" ", "");
 
