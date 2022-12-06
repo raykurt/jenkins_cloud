@@ -102,5 +102,15 @@ public class FileReader {
 
             System.out.println(shapesFinal[i]+" "+areaFinal[i]);
         }
+
+        for (int i = 0; i < shapesFinal.length; i++) {
+            for (int j = i+1; j < shapesFinal.length; j++) {
+                if (areaFinal[i]<areaFinal[j]){
+                    System.out.println("Correct");
+                }
+            }
+
+            System.out.println(shapesFinal[i]+" "+areaFinal[i]);
+        }
     }
 }
