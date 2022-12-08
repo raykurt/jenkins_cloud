@@ -4,7 +4,7 @@ public class Duplicateleri_Sil {
 
     public static void main(String[] args) {
 
-        String str = "abGsscW24c21";
+        String str = "abGs23445W24c21";
         String result = "";
         for (int i = 0; i < str.length(); i++) {
             if(!result.contains(String.valueOf(str.charAt(i)))) {

@@ -4,7 +4,7 @@ public class Reverse_Integer {
 
     public static void main(String[] args) {
 
-            int num = 128579634, reversed = 0;
+            int num = 1285469634, reversed = 0;
 
             while(num != 0) {
             int digit = num % 10;
