@@ -2,7 +2,7 @@ package jenkins;
 
 import java.util.Stack;
 
-public class Valid_Parantezis {
+public class Valid_Paranteziss {
 
     public static void main(String[] args) {
         System.out.println("Answer : " + CheckParentesis("([]){}()"));
