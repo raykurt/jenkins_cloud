@@ -1,7 +1,7 @@
 package jenkins;
 
 
-public class Fibonacci {
+public class Fibonacci_Sayilari {
 
 
     public static void main(String[] args) {
