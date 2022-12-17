@@ -14,6 +14,5 @@ public class EmptyFile {
             }
             System.out.println();
         }
-
     }
 }
