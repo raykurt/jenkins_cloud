@@ -4,7 +4,7 @@ public class Sum_Of_Digits {
 
     public static void main(String[] args) {
 
-        	int number = 19894;
+        	int number = 195424;
             int sum = 0;
             while(number > 0) {
                 sum += number%10;
